@@ -1,0 +1,874 @@
+/* origin */
+body {
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 1.75;
+}
+
+.page-section {
+    padding: 6rem 0;
+}
+
+.page-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.page-section h3.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 9rem 0;
+    }
+}
+
+::-moz-selection {
+    background: #fed136;
+    text-shadow: none;
+}
+
+::selection {
+    background: #fed136;
+    text-shadow: none;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+    padding: 0.75rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.75rem;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #fed136;
+    border: 0;
+}
+
+#mainNav .navbar-brand {
+    color: #fed136;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+}
+
+#mainNav .navbar-brand img {
+    height: 1.5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625em;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 1.5em;
+        transition: font-size 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand img {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
+    }
+
+    #mainNav.navbar-shrink {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand svg,
+    #mainNav.navbar-shrink .navbar-brand img {
+        height: 1.5rem;
+    }
+
+    #mainNav .navbar-nav .nav-item {
+        margin-right: 1rem;
+    }
+
+    #mainNav .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+}
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    -webkit-mask: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.6)))
+}
+
+header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+    header.masthead .masthead-subheading {
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+
+    header.masthead .masthead-heading {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+
+/* orign-end */
+
+/* 电影标题特效Start */
+#movieTitle {
+    font-family: FZLaGBTTJW;
+    letter-spacing: 2px;
+    text-shadow: -3px 0 0 rgba(255, 0, 0, 0.7), 3px 0 0 rgba(0, 255, 255, 0.7);
+    transition: all 0.5s ease-in-out;
+}
+
+#movieTitle:hover {
+    text-shadow: none;
+}
+
+/* 电影标题特效End */
+
+
+/* footer-start */
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
+
+/* footer-end */
+
+
+/* Media-Start */
+.circle {
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50%;
+    background-color: #fed136;
+    color: #4D4545;
+    max-height: 50px;
+    z-index: 2;
+}
+
+.how-it-works.row {
+    display: flex;
+}
+
+.how-it-works.row .col-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #fed136;
+    z-index: 1;
+}
+
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+
+.how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+
+.how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+
+.timeline hr {
+    border-top: 3px solid #fed136;
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.timeline .corner {
+    border: 3px solid #fed136;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
+
+/* Media-End */
+
+/* Role-Start */
+
+/* Styling */
+.timeline-v3 {
+    margin: 4em auto;
+    position: relative;
+    max-width: 46em;
+}
+
+.timeline-v3:before {
+    background-color: black;
+    content: '';
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 2px;
+    height: 100%;
+}
+
+.timeline-v3-event {
+    position: relative;
+}
+
+.timeline-v3-event:hover .timeline-v3-event-icon {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-color: #fed136;
+}
+
+.timeline-v3-event:hover .timeline-v3-event-thumbnail {
+    -moz-box-shadow: inset 40em 0 0 0 #fed136;
+    -webkit-box-shadow: inset 40em 0 0 0 #fed136;
+    box-shadow: inset 40em 0 0 0 #fed136;
+}
+
+.timeline-v3-event-copy {
+    padding: 2em;
+    position: relative;
+    top: -1.875em;
+    left: 4em;
+    width: 80%;
+}
+
+.timeline-v3-event-copy h3 {
+    font-size: 1.75em;
+}
+
+.timeline-v3-event-copy h4 {
+    font-size: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.timeline-v3-event-copy strong {
+    font-weight: 700;
+}
+
+.timeline-v3-event-copy p:not(.timeline-v3-event-thumbnail) {
+    padding-bottom: 1.2em;
+}
+
+.timeline-v3-event-icon {
+    -moz-transition: -moz-transform 0.2s ease-in;
+    -o-transition: -o-transform 0.2s ease-in;
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    transition: transform 0.2s ease-in;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: black;
+    outline: 10px solid white;
+    display: block;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 1em;
+    height: 1em;
+}
+
+.timeline-v3-event-thumbnail {
+    -moz-transition: box-shadow 0.5s ease-in 0.1s;
+    -o-transition: box-shadow 0.5s ease-in 0.1s;
+    -webkit-transition: box-shadow 0.5s ease-in;
+    -webkit-transition-delay: 0.1s;
+    transition: box-shadow 0.5s ease-in 0.1s;
+    color: white;
+    font-size: 0.75em;
+    background-color: black;
+    -moz-box-shadow: inset 0 0 0 0em #fed136;
+    -webkit-box-shadow: inset 0 0 0 0em #fed136;
+    box-shadow: inset 0 0 0 0em #fed136;
+    display: inline-block;
+    margin-bottom: 1.2em;
+    padding: 0.25em 1em 0.2em 1em;
+}
+
+
+.role-card-text{
+    overflow:scroll; 
+    height: 30vh; 
+    text-indent: 2em;
+}
+/* Role-END */
+
+/* Comment-Start */
+.timeline-v2 {
+    margin-bottom: 0;
+    list-style: none;
+    /* padding-left: 140px; */
+    /* left: 40%; */
+    position: relative;
+}
+
+.timeline-v2 .media {
+    padding: 20px;
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.025);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.030);
+}
+
+.timeline-v2 .media-object {
+    width: 45px;
+    height: 45px;
+}
+
+.timeline-v2 .media-body[data-time]::after {
+    content: attr(data-time);
+    position: absolute;
+    top: 0;
+    right: -10px;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: #fff;
+    background-color: #2196f3;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.timeline-v2 .media-body p:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-v2>li {
+    position: relative;
+}
+
+.timeline-v2>li[data-date]::before {
+    content: attr(data-date);
+    position: absolute;
+    top: 44px;
+    right: 100%;
+    margin-right: 20px;
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 12px;
+    color: #777;
+}
+
+.timeline-v2>li[data-date]>div .media::before {
+    content: '';
+    position: absolute;
+    top: 47px;
+    left: -25px;
+    width: 12px;
+    height: 12px;
+    background-color: #f5f5f5;
+    border: 2px solid #2196f3;
+    z-index: 1;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition-property: top, left, width, height, border-color;
+    transition-property: top, left, width, height, border-color;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.timeline-v2>li[data-date]>div+div .media::before {
+    border-color: #4caf50;
+}
+
+.timeline-v2>li[data-date]>div .media:hover::before,
+.timeline-v2>li[data-date]>div+div .media:hover::before {
+    border-color: #f44336;
+}
+
+.timeline-v2>li:not(:last-child)>div:before,
+.timeline-v2>li:last-child>div:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    top: 53px;
+    left: -20px;
+    height: 100%;
+    border: 1px solid #e8e8e8;
+}
+
+.timeline-v2>li:not(:last-child)>div:not(:last-child):before,
+.timeline-v2>li:last-child>div:not(:last-child)::before {
+    border-style: dashed;
+}
+
+.timeline-v2>li>div {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.timeline-v2>li>div::after {
+    content: '';
+    position: absolute;
+    top: 47px;
+    left: -6px;
+    border-style: solid;
+    border-width: 6px 6px 6px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.timeline-v2>li>div:hover .media-body[data-time]::after {
+    background-color: #f44336;
+}
+
+@media (max-width: 767px) {
+    .timeline-v2 {
+        padding-left: 30px;
+    }
+
+    .timeline-v2>li[data-date]::before {
+        margin-right: auto;
+        -webkit-transform: rotate(-90deg) translate(50%, -20px);
+        transform: rotate(-90deg) translate(50%, -20px);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+    }
+}
+
+/* Comment-End */
+
+
+/* Phrase-Start */
+.steps {
+    position: relative;
+}
+
+.steps:before {
+    top: 125px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 2px;
+    background-color: #fed136;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-v4 {
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.timeline-v4 .timeline-v4-box {
+    position: relative;
+    float: left;
+    clear: left;
+    width: 45%;
+    margin: 1em 2.5%;
+    list-style-type: none;
+    display: block;
+    padding: 25px;
+    background: #f8f8f8;
+    z-index: 15;
+}
+
+.timeline-v4 .timeline-v4-box .timeline-v4-title {
+    color: #3c3c3c;
+    font-weight: 700;
+    font-size: 1em;
+    float: left;
+    padding-left: 25px;
+    padding-top: 8px;
+}
+
+.timeline-v4 .timeline-v4-box .timeline-v4-details {
+    clear: both;
+    padding-top: 5px;
+}
+
+.timeline-v4 .timeline-v4-box span {
+    position: absolute;
+    top: -15px;
+    right: 24px;
+    font-size: 8em;
+    font-weight: 700;
+    color: #fed136;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+@media all and (max-width: 600px) {
+    .timeline-v4 .timeline-v4-box {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.timeline-v4 .timeline-v4-box:hover:after {
+    background: #fed136;
+}
+
+@media all and (min-width: 650px) {
+    .timeline-v4 .timeline-v4-box:after {
+        display: block;
+        content: ' ';
+        height: 9px;
+        width: 9px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        right: -6.55%;
+        top: 1.5em;
+        border: 2px solid #fed136;
+    }
+}
+
+.timeline-v4 .timeline-v4-box:first-child {
+    margin-bottom: 2.5em;
+}
+
+.timeline-v4 .timeline-v4-box:nth-of-type(1n):before {
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f8f8f8;
+    border-right: 0 solid #f8f8f8;
+    border-bottom: 10px solid transparent;
+    content: " ";
+}
+
+.timeline-v4 .timeline-v4-box:nth-of-type(2n) {
+    float: right;
+    clear: right;
+}
+
+.timeline-v4 .timeline-v4-box:nth-of-type(2n):before {
+    right: auto;
+    left: -10px;
+    position: absolute;
+    top: 15px;
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #f8f8f8;
+    border-left: 0 solid #f8f8f8;
+    border-bottom: 10px solid transparent;
+    content: " ";
+}
+
+@media all and (min-width: 600px) {
+    .timeline-v4 .timeline-v4-box:nth-of-type(2n) {
+        margin-top: 3em;
+    }
+}
+
+.timeline-v4 .timeline-v4-box:nth-child(2n):after {
+    left: -6.5%;
+    right: auto;
+}
+
+.timeline-v4-box:hover,
+.timeline-v4-box:focus {
+    transform: translate(0, -5px);
+    -webkit-transform: translate(0, -5px);
+    -ms-transform: translate(0, -5px);
+}
+
+.timeline-v4-box:hover,
+.timeline-v4-box:focus {
+    -webkit-box-shadow: 0px 3px 0px 0px #fed136;
+    -moz-box-shadow: 0px 3px 0px 0px #fed136;
+    box-shadow: 0px 3px 0px 0px #fed136;
+}
+
+.timeline-v4-box {
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+
+.steps-area {
+    padding: 90px 0;
+}
+
+/* Phrase-End */

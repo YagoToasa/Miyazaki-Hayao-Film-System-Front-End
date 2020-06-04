@@ -1,0 +1,47 @@
+@font-face {
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/pirou.otf");
+    font-family: Metropolis;
+}
+
+@font-face {
+    src: url("../assets/font/FZXIANGSU24.TTF");
+    font-family: FZXIANGSU24;
+}
+
+
+
+@font-face {
+    src: url("../assets/font/MUSKETEB.TTF");
+    font-family: MUSKETEB;
+}
+
+
+@font-face {
+    src: url("../assets/font/FZQingLTJW_Zhun.TTF");
+    font-family: FZQingLTJW_Zhun;
+}
+
+@font-face {
+    src: url("../assets/font/FZLaGBTTJW.TTF");
+    font-family: FZLaGBTTJW;
+}
+
+@font-face {
+    src: url("../assets/font/FZQianWTJW.TTF");
+    font-family: FZQianWTJW;
+}
+
+@font-face {
+    src: url("../assets/font/FZQingCTJF_Xi.TTF");
+    font-family: FZQingCTJF_Xi;
+}
+
+@font-face {
+    src: url("../assets/font/lztwo___.TTF");
+    font-family: lztwo___;
+}
+
+@font-face {
+    src: url("../assets/font/DucDeBerryLTStd.OTF");
+    font-family: DucDeBerryLTStd;
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Film Details</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/index-style.css"/>
+    <link rel="stylesheet" href="../css/font-collection.css"/>
+    <link rel="stylesheet" href="../css/loading-style.css"/>
+</head>
+
+<body id="page-top">
+<div class="loading-div" id="loadingMask">
+        <span class="back">
+            <span>L</span>
+            <span>o</span>
+            <span>a</span>
+            <span>d</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+        </span>
+</div>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span style="color: white;">Miyazaki Hayao</span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#plot">剧情简介</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#role">人物介绍</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#phrase">精选台词</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#media">媒体链接</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#comment">电影评论</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">返回主页</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- 题图页 -->
+<header class="masthead"
+        style="background-image: url('../assets/test/龙猫cover.jpg'); background-position: center; background-size: 100% auto;"
+        id="movieBanner">
+    <div class="container">
+        <!-- <div class="masthead-subheading">宣传标语</div> -->
+        <div class="masthead-heading" id="movieTitle">电影标题</div>
+    </div>
+</header>
+<!-- 剧情简介  -->
+<section class="page-section" id="plot">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">剧情简介</h2>
+            <h3 class="section-subheading text-muted">
+                Synopsis
+            </h3>
+        </div>
+        <div class="card mb-3 shadow">
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                    <img src="../assets/test/龙猫poster.jpg" class="card-img img-fluid" alt="..."
+                         id="moviePlotPicture">
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <h5 class="card-title">电影剧情</h5>
+                        <hr/>
+                        <p class="card-text" id="moviePlotContent"
+                           style="overflow:scroll; max-height: 40vh; text-indent: 2em;"></p>
+                        <hr/>
+                        <p class="card-text text-right"><small class="text-muted">就这些啦～</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 角色介绍 -->
+<section class="page-section bg-light" id="role">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">人物介绍</h2>
+            <h3 class="section-subheading text-muted">
+                Characters Intro
+            </h3>
+        </div>
+        <div class="container mb-5">
+            <div id="carousel-card" class="carousel slide" data-interval="5000">
+                <div class="carousel-inner" id="movieRoleContent">
+                </div>
+                <a class="carousel-control-prev" href="#carousel-card" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"
+                              style="background-image: url('../assets/img/zuo.png');"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-card" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"
+                              style="background-image: url('../assets/img/you.png');"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 精选台词 -->
+<section class="page-section" id="phrase">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">精选台词</h2>
+            <h3 class="section-subheading text-muted">
+                Selected Quotes
+            </h3>
+        </div>
+        <section class="steps steps-area">
+            <div class="container">
+                <!-- title-section -->
+                <ul class="timeline-v4" id="moviePhraseContent">
+                </ul>
+            </div>
+            <!-- End container -->
+        </section>
+    </div>
+</section>
+<!-- 媒体链接 -->
+<section class="page-section bg-light" id="media">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">媒体链接</h2>
+            <h3 class="section-subheading text-muted">
+                Media Link
+            </h3>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <!--first section-->
+                <div class="row align-items-center how-it-works">
+                    <div class="col-2 text-center bottom">
+                        <div class="circle" style="color: white;">1</div>
+                    </div>
+                    <div class="col-6">
+                        <h5>腾讯视频</h5>
+                        <p>腾讯视频 - 中国领先的在线视频媒体平台,海量高清视频在线观看</p>
+                        <a href="www.baidu.com" class="btn-link text-warning text-decoration-none"
+                           id="qq_link">点击观看</a>
+                    </div>
+                </div>
+                <!--path between 1-2-->
+                <div class="row timeline">
+                    <div class="col-2">
+                        <div class="corner top-right"></div>
+                    </div>
+                    <div class="col-8">
+                        <hr/>
+                    </div>
+                    <div class="col-2">
+                        <div class="corner left-bottom"></div>
+                    </div>
+                </div>
+                <!--second section-->
+                <div class="row align-items-center justify-content-end how-it-works">
+                    <div class="col-6 text-right">
+                        <h5>优酷</h5>
+                        <p>优酷- 这世界很酷</p>
+                        <a href="www.baidu.com" class="btn-link text-warning text-decoration-none"
+                           id="youku_link">点击观看</a>
+                    </div>
+                    <div class="col-2 text-center full">
+                        <div class="circle" style="color: white;">2</div>
+                    </div>
+                </div>
+                <!--path between 2-3-->
+                <div class="row timeline">
+                    <div class="col-2">
+                        <div class="corner right-bottom"></div>
+                    </div>
+                    <div class="col-8">
+                        <hr/>
+                    </div>
+                    <div class="col-2">
+                        <div class="corner top-left"></div>
+                    </div>
+                </div>
+                <!--third section-->
+                <div class="row align-items-center how-it-works">
+                    <div class="col-2 text-center top">
+                        <div class="circle" style="color: white;">3</div>
+                    </div>
+                    <div class="col-6">
+                        <h5>爱奇艺</h5>
+                        <p>爱奇艺-在线视频网站-海量正版高清视频在线观看</p>
+                        <a href="www.baidu.com" class="btn-link text-warning text-decoration-none"
+                           id="iqiyi_link">点击观看</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 电影评论 -->
+<section class="page-section" id="comment">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">电影评论</h2>
+            <h3 class="section-subheading text-muted">
+                Movie Reviews
+            </h3>
+        </div>
+        <ul class="timeline-v3" id="comment-ul">
+        </ul>
+        <div class="row-cols-1" id="login-comment">
+            <div class="input-group col-6 offset-md-3">
+                <input type="text" class="form-control border-warning" id="comment-content">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary btn-outline-warning" type="button" id="comment-commit-button">发表评论</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-cols-1" id="not-login-alter">
+            <div class="alert alert-warning show col-6 offset-md-3" role="alert">
+                <strong>=͟͟͞͞(꒪⌓꒪*)</strong>还没有登陆是不能评论的哟. 快去<a href="login.html" class="text-warning">登陆</a>吧～
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>About</h6>
+                <p class="text-justify">Tongji University Web Course Final Project-Miyazaki Movie Station. The front-end user interface is implemented using HTML, CSS, Javascript, and Bootstrap. All pictures are from the Internet, only for learning use, don't generate commercial value.</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Reference</h6>
+                <ul class="footer-links">
+                    <li><a href="https://v4.bootcss.com">Bootstrap</a></li>
+                    <li><a href="https://fontawesome.dashgame.com">Font Awesome</a></li>
+                    <li><a href="https://codepen.io">Codepen</a></li>
+                    <li><a href="https://ghibliwiki.org">ghibliwiki</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Contact Me</h6>
+                <ul class="footer-links">
+                    <li><a href="https://github.com/YagoToasa">Github</a></li>
+                    <li><a href="1664730993@qq.com">E-mail</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                    <a>Shidan Cheng</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="../js/common-script.js"></script>
+s
+<script src="../js/bootstrap.js"></script>
+
+<!-- Third party plugin JS-->
+
+<script src="../js/index-scripts.js"></script>
+<script src="../js/cookie-script.js"></script>
+</body>
+
+</html>
