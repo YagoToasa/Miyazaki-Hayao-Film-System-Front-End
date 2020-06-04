@@ -1,0 +1,5 @@
+.idea
+admin/node_modules
+user/.idea
+user/assets
+user/Final-Project.code-workspace
