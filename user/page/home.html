@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>宫崎骏电影世界</title>
+    <title>宫崎骏电影小站</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="../css/home-style.css">
     <link rel="stylesheet" href="../css/loading-style.css" />
-</head>
+    <link rel="stylesheet" href="../css/share.min.css">
 
+
+</head>
 <body>
     <div class="loading-div" id="loadingMask">
 		<span class="back">
@@ -29,11 +31,13 @@
     </div>
 
     <div class="overlay" id="overlay">
+
         <nav class="overlay-menu">
             <ul>
                 <li id="userName"></li>
                 <li><a href="#">作品集</a></li>
             </ul>
+
         </nav>
     </div>
 
@@ -47,6 +51,9 @@
                     </div>
                     <div class="logo2">
                     </div>
+                    <div id="site-share">
+                        <div class="share-component" data-disabled="google,twitter,facebook,douban,linkedin,diandian,tencent,wechat" data-description="宫崎骏电影小站"></div>
+                    </div>
                 </ul>
             </nav>
         </div>
@@ -55,6 +62,8 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
+    <script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+    <script src="../js/jquery.share.min.js"></script>
     <script src="../js/home-script.js"></script>
     <script src="../js/common-script.js"></script>
     <script src="../js/cookie-script.js"></script>

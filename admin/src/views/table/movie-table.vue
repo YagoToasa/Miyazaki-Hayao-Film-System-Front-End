@@ -74,6 +74,14 @@
             placeholder="请输入内容"
           />
         </el-form-item>
+        <el-form-item label="详细内容" prop="plot">
+          <el-input
+            v-model="addForm.plot"
+            type="textarea"
+            autosize
+            placeholder="请输入内容"
+          />
+        </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click.native="addFormVisible=false">取消</el-button>
@@ -107,6 +115,14 @@
         <el-form-item label="内容介绍" prop="intro">
           <el-input
             v-model="editForm.intro"
+            type="textarea"
+            autosize
+            placeholder="请输入内容"
+          />
+        </el-form-item>
+        <el-form-item label="详细内容" prop="plot">
+          <el-input
+            v-model="editForm.plot"
             type="textarea"
             autosize
             placeholder="请输入内容"
@@ -173,7 +189,8 @@ export default {
         releaseYear: 0,
         releaseDate: '',
         coverUrl: '',
-        posterUrl: ''
+        posterUrl: '',
+        plot: ''
       },
       addFormRules: {
         chName: [
@@ -204,7 +221,8 @@ export default {
         releaseYear: 0,
         releaseDate: '',
         coverUrl: '',
-        posterUrl: ''
+        posterUrl: '',
+        plot: ''
       },
       editFormRules: {
         chName: [
@@ -272,7 +290,8 @@ export default {
         releaseYear: '',
         releaseDate: '',
         coverUrl: '',
-        posterUrl: ''
+        posterUrl: '',
+        plot: ''
       }
     },
     addSubmit: function() {

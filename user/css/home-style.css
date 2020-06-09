@@ -511,6 +511,18 @@ a[data-tooltip][data-placement="top"]::after {
     background-position: center;
 }
 
+#site-share {
+    position: fixed;
+    top: 5%;
+    left: 46%;
+    width: 420px;
+    height: 164px;
+    z-index: 10;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /**MENU**/
 
 .button_container {

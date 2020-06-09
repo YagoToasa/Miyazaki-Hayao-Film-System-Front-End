@@ -42,7 +42,8 @@ login.addEventListener('click', () => {
         success: function (result) {
             alert("登陆成功!")
             setCookie("userName", param.userName)
-            self.location = "../page/home.html";
+            window.history.go(-1);
+            // self.location = "../page/home.html";
         },
         error: function (result) {
             alert("登陆失败，请检查用户名/密码是否正确")

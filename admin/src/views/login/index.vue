@@ -68,8 +68,8 @@ export default {
       }
     }
     const validatePassword = (rule, value, callback) => {
-      if (value.length < 6) {
-        callback(new Error('The password can not be less than 6 digits'))
+      if (value.length < 3) {
+        callback(new Error('The password can not be less than 3 digits'))
       } else {
         callback()
       }
@@ -77,7 +77,7 @@ export default {
     return {
       loginForm: {
         username: 'admin',
-        password: '111111'
+        password: 'admin'
       },
       loginRules: {
         username: [{ required: true, trigger: 'blur', validator: validateUsername }],
@@ -134,17 +134,26 @@ export default {
     handleLogin() {
       this.$refs.loginForm.validate(valid => {
         if (valid) {
-          this.loading = true
-          this.$store.dispatch('user/login', this.loginForm)
-            .then(() => {
-              this.$router.push({ path: this.redirect || '/', query: this.otherQuery })
-              this.loading = false
+          const username1 = this.loginForm.username
+          const password1 = this.loginForm.password
+          console.log(username1)
+          if (username1 === 'admin' && password1 === 'admin') {
+            this.loading = true
+            this.$store.dispatch('user/login', this.loginForm)
+              .then(() => {
+                this.$router.push({ path: this.redirect || '/', query: this.otherQuery })
+                this.loading = false
+              })
+              .catch(() => {
+                this.loading = false
+              })
+          } else {
+            this.$message({
+              message: '登陆失败请重试。',
+              type: 'error'
             })
-            .catch(() => {
-              this.loading = false
-            })
+          }
         } else {
-          console.log('error submit!!')
           return false
         }
       })

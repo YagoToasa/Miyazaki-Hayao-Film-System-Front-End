@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8e6ae6c-17d0-4ecc-9ff5-2cfefd3fdbf9" name="Default Changelist" comment="" />
+    <list default="true" id="c8e6ae6c-17d0-4ecc-9ff5-2cfefd3fdbf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/share.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.share.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/social-share.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/views/table/movie-table.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/views/table/movie-table.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/home-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1cpvAVzKysV4wwJjL1jqma1DGJ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,22 +33,41 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/assets/font" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.details.html">
+  <component name="RunManager" selected="Node.js.social-share.min.js">
     <configuration name="details.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/user/page/details.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/user/page/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/user/page/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="pre-loader-page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/user/page/pre-loader-page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="social-share.min.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/social-share.min.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.social-share.min.js" />
+        <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.details.html" />
+        <item itemvalue="JavaScript Debug.pre-loader-page.html" />
         <item itemvalue="JavaScript Debug.login.html" />
       </list>
     </recent_temporary>
@@ -48,6 +84,7 @@
       <updated>1591238205712</updated>
       <workItem from="1591238207311" duration="8773000" />
       <workItem from="1591268609392" duration="5000" />
+      <workItem from="1591624750347" duration="6586000" />
     </task>
     <servers />
   </component>
@@ -55,6 +92,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom" timestamp="1591631719964">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-215.-1057.1920.1057@0.23.1440.877" timestamp="1591631719964" />
+    <state width="1419" height="230" key="GridCell.Tab.0.center" timestamp="1591631719963">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-215.-1057.1920.1057@0.23.1440.877" timestamp="1591631719963" />
+    <state width="1419" height="230" key="GridCell.Tab.0.left" timestamp="1591631719963">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-215.-1057.1920.1057@0.23.1440.877" timestamp="1591631719963" />
+    <state width="1419" height="230" key="GridCell.Tab.0.right" timestamp="1591631719963">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-215.-1057.1920.1057@0.23.1440.877" timestamp="1591631719963" />
     <state x="450" y="380" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1591239450376">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
